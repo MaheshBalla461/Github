@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Retrofit retrofit = new Retrofit.Builder()
+       /* Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://api.github.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
@@ -37,6 +37,6 @@ public class MainActivity extends AppCompatActivity {
             public void onFailure(@NonNull Call<List<Repo>> call, @NonNull Throwable t) {
 
             }
-        });
+        });*/
     }
 }
