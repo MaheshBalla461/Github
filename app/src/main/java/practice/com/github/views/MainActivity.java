@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(@NonNull Call<List<Repo>> call, @NonNull Throwable t) {
-
+                //Error handling implemented.
             }
         });
     }
