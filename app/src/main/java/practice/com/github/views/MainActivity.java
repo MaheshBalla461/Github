@@ -30,7 +30,9 @@ public class MainActivity extends AppCompatActivity {
         retrofit.create(GithubService.class).getRepos("MaheshBalla461").enqueue(new Callback<List<Repo>>() {
             @Override
             public void onResponse(@NonNull Call<List<Repo>> call, @NonNull Response<List<Repo>> response) {
+                if(response.isSuccessful()){
 
+                }
             }
 
             @Override
